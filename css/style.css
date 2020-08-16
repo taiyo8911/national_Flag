@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+}
+
+.btn {
+    width: 15%;
+    background-color: pink;
+    color: black;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+header {
+    background-color: lightgray;
+}
+
+footer {
+    text-align: center;
+    background-color: lightgray;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 10px;
+}
