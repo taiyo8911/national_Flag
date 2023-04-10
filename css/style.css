@@ -1,26 +1,56 @@
-a {
-    text-decoration: none;
+body {
+    background-color: #f2f2f2;
 }
 
-.btn {
-    width: 15%;
-    background-color: pink;
-    color: black;
-    border: 1px solid white;
-}
-
-.btn:hover {
-    cursor: pointer;
-}
-
-header {
-    background-color: lightgray;
-}
-
-footer {
+h1 {
+    color: #2c3e50;
     text-align: center;
-    background-color: lightgray;
-    font-size: 12px;
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+label {
+    color: #2c3e50;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+option {
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+a#area {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+img[name="area"] {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+img[name="area"]:hover {
+    transform: scale(1.1);
 }
